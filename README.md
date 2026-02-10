@@ -64,6 +64,7 @@ LocalStorage: Almacenamiento local en formato JSON.
 VS Code y GitHub: Entorno de desarrollo y control de versiones.
 
 2. Desarrollo
+
 2.1. Modelo de base de datos
 Se define una entidad conceptual Destino con los campos: id, ciudad, país, temperatura, imagen y notas. Este modelo se implementará mediante LocalStorage, aunque su estructura permite una fácil migración futura a una base de datos relacional (SQL) sin alterar la lógica de la aplicación.
 
