@@ -2,7 +2,7 @@
 
 # 1. Introducción
 
-#1.1. Breve descripción de la aplicación
+# 1.1. Breve descripción de la aplicación
 
 Viajamos es una aplicación web pensada para ayudar a los usuarios a encontrar destinos turísticos que encajen con sus gustos de forma rápida y sencilla. A través de un pequeño cuestionario de preferencias (tipo de destino, estilo de viaje y clima deseado), la aplicación recomendará lugares que se ajusten al perfil del usuario. Además, mostrará información útil en tiempo real, como el clima actual y fotografías del destino obtenidas mediante APIs externas. La aplicación contará con un diseño responsive para poder utilizarse cómodamente tanto en ordenador como en dispositivos móviles.
 
