@@ -1,111 +1,126 @@
-# Proyecto-Individual
+# 🌍 Viajamos
 
-# 1. Introducción
+Aplicación web orientada a la recomendación de destinos turísticos en función de los gustos del usuario.
 
-# 1.1. Breve descripción de la aplicación
+---
 
-Viajamos es una aplicación web pensada para ayudar a los usuarios a encontrar destinos turísticos que encajen con sus gustos de forma rápida y sencilla. A través de un pequeño cuestionario de preferencias (tipo de destino, estilo de viaje y clima deseado), la aplicación recomendará lugares que se ajusten al perfil del usuario. Además, mostrará información útil en tiempo real, como el clima actual y fotografías del destino obtenidas mediante APIs externas. La aplicación contará con un diseño responsive para poder utilizarse cómodamente tanto en ordenador como en dispositivos móviles.
+## 📌 Descripción de la aplicación
 
-# 1.2. Necesidad de la aplicación
+**Viajamos** es una aplicación web que recomienda destinos turísticos de forma personalizada.  
+A través de un formulario de preferencias, el usuario selecciona:
 
-Hoy en día, cuando una persona quiere planificar un viaje suele tener que consultar muchas páginas diferentes para ver ideas de destinos, el tiempo que hará o imágenes del lugar. Esto hace que el proceso sea más lento y, en muchos casos, complicado debido a la gran cantidad de opciones disponibles. Viajamos pretende simplificar este proceso, ofreciendo recomendaciones rápidas basadas en los gustos del usuario y centralizando la información más importante en un único sitio.
+- Tipo de destino
+- Estilo de viaje
+- Clima deseado
 
-# 1.3. Principales funciones y roles de usuario
+En base a estas elecciones, la aplicación genera una recomendación adaptada al perfil del usuario.  
+Además, integra información externa como datos meteorológicos e imágenes del destino mediante el consumo de APIs REST, ofreciendo una experiencia visual, intuitiva y con diseño responsive.
 
-La aplicación contará con un único tipo de usuario, denominado Usuario Visitante, que podrá utilizar todas las funcionalidades sin necesidad de registrarse.
+---
 
-Las funciones principales serán:
+## 🎯 Necesidad de la aplicación
 
-Cuestionario de preferencias: Un formulario sencillo donde el usuario seleccionará sus gustos de viaje (playa, montaña o ciudad; viaje relajado, de aventura o cultural; y tipo de clima preferido).
+Existen numerosas plataformas relacionadas con los viajes, la mayoría de ellas centradas en la búsqueda manual de destinos, la comparación de precios o la reserva de servicios turísticos. Estas soluciones suelen requerir múltiples pasos y una búsqueda activa por parte del usuario.
 
-Sistema de recomendación: A partir de esas preferencias, la aplicación filtrará los destinos disponibles mediante lógica JavaScript y mostrará las opciones más adecuadas.
+**Viajamos** surge como una alternativa sencilla y directa, enfocada en la recomendación inmediata de destinos en base a los gustos del usuario, sin necesidad de registros ni procesos complejos.  
+La aplicación reduce la fatiga de decisión y actúa como una herramienta de inspiración rápida, ofreciendo una funcionalidad que no suele encontrarse de forma centralizada en otras plataformas de viajes.
 
-Visualización de información del destino: Se mostrarán datos como el clima actual y fotografías del lugar mediante el uso de APIs externas.
+---
 
-Gestión de favoritos: El usuario podrá guardar los destinos que más le interesen, consultarlos posteriormente o eliminarlos.
+## 👤 Roles de usuario y funcionalidades
 
-Persistencia de datos: Los destinos guardados permanecerán almacenados en el navegador mediante LocalStorage para poder consultarlos en futuras sesiones.
+La aplicación cuenta con un único rol:
 
-# 1.4. Wireframes
+### Usuario visitante
 
-La aplicación estará organizada en tres pantallas principales:
+Funciones disponibles:
+- Completar un cuestionario de preferencias de viaje.
+- Obtener una recomendación personalizada de destino.
+- Visualizar información dinámica del destino (clima e imágenes).
+- Guardar destinos recomendados como favoritos.
+- Consultar el listado de destinos favoritos.
+- Eliminar destinos guardados.
+- Mantener los datos entre sesiones mediante almacenamiento local.
 
-Inicio / Quiz de preferencias: Pantalla inicial donde el usuario completará el cuestionario de gustos.
+---
 
-Pantalla de recomendación: Se mostrará el destino sugerido junto con su información principal (clima, imágenes y descripción).
+## 🎨 Wireframes
 
-Sección de favoritos: Apartado donde se visualizarán los destinos guardados por el usuario en formato de tarjetas.
+Se realizarán wireframes de las principales pantallas de la aplicación como primera aproximación visual del diseño.  
+Estos bocetos podrán modificarse durante el desarrollo en función de las necesidades del proyecto.
 
-# 1.5. Gestión del proyecto
+---
 
-El desarrollo del proyecto se llevará a cabo durante el mes de febrero siguiendo la siguiente planificación:
+## 🗂️ Gestión del proyecto
 
-Semana 1
+El desarrollo del proyecto se organiza en un periodo de **14 días**, debido a la proximidad de la evaluación.
 
-Organización de la estructura de archivos del proyecto.
+### Planificación estimada
 
-Diseño de la interfaz básica utilizando HTML y Bootstrap.
+- Análisis de requisitos y diseño general: **2 días**
+- Maquetación HTML y estilos CSS / Bootstrap: **3 días**
+- Desarrollo de la lógica en JavaScript: **4 días**
+- Integración de APIs externas: **2 días**
+- Implementación de almacenamiento en LocalStorage: **1 día**
+- Pruebas, ajustes responsive y documentación final: **2 días**
 
-Creación del cuestionario de preferencias.
+La gestión y seguimiento de las tareas se realiza mediante un tablero de Trello, donde se puede consultar el progreso del proyecto en tiempo real.
 
-Semana 2
+🔗 **Tablero de Trello:**  
+https://trello.com/b/NlYKsycu/proyecto-individual
 
-Programación del sistema de recomendación de destinos.
+---
 
-Integración de APIs externas para obtener datos de clima e imágenes.
+## 🛠️ Tecnologías utilizadas
 
-Semana 3
+- **HTML5 / CSS3 / Bootstrap 5**  
+  Estructura, estilos y diseño responsive.
 
-Implementación del sistema de favoritos mediante LocalStorage.
+- **JavaScript (ES6)**  
+  Lógica de recomendación, manipulación del DOM y consumo de APIs.
 
-Ajustes finales del diseño responsive.
+- **APIs REST**  
+  Obtención de datos meteorológicos e imágenes profesionales.
 
-Pruebas de funcionamiento y documentación.
+- **LocalStorage**  
+  Almacenamiento persistente de destinos favoritos y preferencias del usuario.
 
-La organización de las tareas se realizará mediante Trello.
+- **GitHub**  
+  Control de versiones del proyecto.
 
-# 1.6. Tecnologías usadas en la implementación
+---
 
-HTML5 y CSS3: Para la estructura y estilos de la aplicación.
+## 🗃️ Modelo de datos
 
-Bootstrap 5: Para facilitar el diseño responsive y los componentes visuales.
+El proyecto se plantea como un **Producto Mínimo Viable (PMV)**, por lo que no utiliza una base de datos relacional tradicional.
 
-JavaScript (ES6): Para la lógica del sistema de recomendación, manipulación del DOM y consumo de APIs mediante fetch.
+### Gestión de la información
 
-APIs REST externas: Para obtener información del clima e imágenes de los destinos.
+- **Catálogo de destinos:**  
+  Colección de datos estática en formato JSON (Mock Data) integrada en el cliente, permitiendo una respuesta inmediata del algoritmo de recomendación.
 
-LocalStorage: Para almacenar los destinos favoritos en el navegador del usuario.
+- **Persistencia:**  
+  Se emplea LocalStorage para simular el almacenamiento de favoritos y preferencias del usuario.
 
-Visual Studio Code: Como entorno de desarrollo.
+### Entidades
 
-GitHub: Para el control de versiones y almacenamiento del proyecto.
+**Destino**
+- id_destino  
+- ciudad  
+- tipo_destino  
+- estilo  
+- clima_tipo  
+- imagen  
+- descripcion  
 
-# 2. Desarrollo
+**PreferenciasUsuario**
+- tipo_preferido  
+- estilo_preferido  
+- clima_preferido  
 
-# 2.1. Modelo de base de datos (conceptual)
+---
 
-Entidad: Destino
+## 🚀 Despliegue
 
-id_destino
-
-ciudad
-
-tipo_destino (playa, montaña, ciudad)
-
-estilo (aventura, relax, cultural)
-
-clima_tipo
-
-imagen
-
-descripcion
-
-Entidad: PreferenciasUsuario (temporal)
-
-tipo_preferido
-
-estilo_preferido
-
-clima_preferido
-
-Las preferencias del usuario se utilizarán para filtrar los destinos disponibles mediante lógica JavaScript. En esta primera versión del proyecto, los datos se almacenarán mediante LocalStorage en formato JSON, permitiendo en el futuro migrar fácilmente a una base de datos relacional si la aplicación se amplía.
+La aplicación podrá desplegarse mediante **:contentReference[oaicite:0]{index=0}**.  
+En su defecto, será ejecutable en entorno local a través de un navegador web moderno con conexión a internet para el consumo de APIs.
