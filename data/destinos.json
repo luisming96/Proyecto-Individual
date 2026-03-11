@@ -1,0 +1,68 @@
+[
+  {
+    "id": "m1",
+    "ciudad": "Málaga",
+    "pais": "España",
+    "tipo": "playa",
+    "estilo": "relax",
+    "clima": "calido",
+    "presupuesto": "medio",
+    "descripcion": "Destino de costa con clima suave y ambiente animado.",
+    "imagen": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "m2",
+    "ciudad": "Lisboa",
+    "pais": "Portugal",
+    "tipo": "ciudad",
+    "estilo": "gastronomico",
+    "clima": "calido",
+    "presupuesto": "medio",
+    "descripcion": "Ciudad costera ideal para cultura y gastronomía.",
+    "imagen": "https://images.unsplash.com/photo-1513735492246-483525079686?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "m3",
+    "ciudad": "Kioto",
+    "pais": "Japón",
+    "tipo": "ciudad",
+    "estilo": "cultural",
+    "clima": "templado",
+    "presupuesto": "alto",
+    "descripcion": "Templos, tradición e historia en un entorno único.",
+    "imagen": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "m4",
+    "ciudad": "Interlaken",
+    "pais": "Suiza",
+    "tipo": "montana",
+    "estilo": "aventura",
+    "clima": "frio",
+    "presupuesto": "alto",
+    "descripcion": "Naturaleza alpina y actividades al aire libre.",
+    "imagen": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "m5",
+    "ciudad": "Toscana",
+    "pais": "Italia",
+    "tipo": "rural",
+    "estilo": "gastronomico",
+    "clima": "templado",
+    "presupuesto": "medio",
+    "descripcion": "Pueblos con encanto, viñedos y cocina local.",
+    "imagen": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "m6",
+    "ciudad": "Cusco",
+    "pais": "Perú",
+    "tipo": "montana",
+    "estilo": "aventura",
+    "clima": "templado",
+    "presupuesto": "economico",
+    "descripcion": "Historia andina y rutas de senderismo.",
+    "imagen": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1200&q=80"
+  }
+]

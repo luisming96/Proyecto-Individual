@@ -1,0 +1,29 @@
+:root {
+  --fondo: #f4f7ff;
+  --texto: #1f2937;
+  --muted: #6b7280;
+}
+
+body {
+  background: linear-gradient(180deg, #eef4ff 0%, var(--fondo) 40%, #f8faff 100%);
+  color: var(--texto);
+}
+
+.sombra-suave {
+  box-shadow: 0 0.5rem 1rem rgba(15, 23, 42, 0.08);
+}
+
+.estado-vacio {
+  border: 2px dashed #d6deee;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  color: var(--muted);
+  background: #fbfcff;
+}
+
+.imagen-destino {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}

@@ -92,7 +92,7 @@ https://trello.com/b/NlYKsycu/proyecto-individual
 
 ## 🗃️ Modelo de datos
 
-El proyecto se plantea como un **Producto Mínimo Viable (PMV)**, por lo que no utiliza una base de datos relacional tradicional.
+En el **estado actual del proyecto** no se utiliza una base de datos relacional tradicional, priorizando la funcionalidad principal y la simplicidad de la entrega.
 
 ### Gestión de la información
 
